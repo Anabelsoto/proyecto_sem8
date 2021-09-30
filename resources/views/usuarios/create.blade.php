@@ -4,8 +4,8 @@
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-                <div class="col-sm-12">
-                    <h1>Create Usuario</h1>
+                <div class="col-sm-6 alert alert-info">
+                    <h1>Ingresa los datos de Usuario</h1>
                 </div>
             </div>
         </div>
@@ -28,8 +28,8 @@
             </div>
 
             <div class="card-footer">
-                {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                <a href="{{ route('usuarios.index') }}" class="btn btn-default">Cancel</a>
+                {!! Form::submit('Guardar', ['class' => 'btn btn-success']) !!}
+                <a href="{{ route('usuarios.index') }}" class="btn btn-danger">Cancelar</a>
             </div>
 
             {!! Form::close() !!}

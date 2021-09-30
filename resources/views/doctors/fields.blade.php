@@ -6,7 +6,7 @@
 
 <!-- Dni Field -->
 <div class="form-group col-sm-3">
-    {!! Form::label('DNI', 'Dni:') !!}
+    {!! Form::label('DNI', 'DNI:') !!}
     {!! Form::text('DNI', null, ['class' => 'form-control','maxlength' => 8,'maxlength' => 8]) !!}
 </div>
 

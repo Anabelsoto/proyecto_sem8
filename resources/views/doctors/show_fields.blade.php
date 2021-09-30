@@ -6,7 +6,7 @@
 
 <!-- Dni Field -->
 <div class="col-sm-12">
-    {!! Form::label('DNI', 'Dni:') !!}
+    {!! Form::label('DNI', 'DNI:') !!}
     <p>{{ $doctor->DNI }}</p>
 </div>
 

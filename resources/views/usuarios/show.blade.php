@@ -4,13 +4,13 @@
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1>Usuario Details</h1>
+                <div class="col-sm-6 alert alert-info">
+                    <h1>Detalle de datos de Usuario</h1>
                 </div>
                 <div class="col-sm-6">
-                    <a class="btn btn-default float-right"
+                    <a class="btn btn-secondary float-right"
                        href="{{ route('usuarios.index') }}">
-                        Back
+                        Volver
                     </a>
                 </div>
             </div>

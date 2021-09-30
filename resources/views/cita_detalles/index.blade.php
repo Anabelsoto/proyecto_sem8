@@ -1,10 +1,9 @@
 @extends('layouts.app')
-
-@section('content')
-    <section class="content-header">
+@section('content' )
+    <section class="content-header " style="background:#D6DBDF">
         <div class="container-fluid">
             <div class="row mb-2">
-                <div class="col-sm-6">
+                <div class="col-sm-6 alert alert-info">
                     <h1>Cita Detalles</h1>
                 </div>
                 <div class="col-sm-6">
@@ -17,13 +16,13 @@
         </div>
     </section>
 
-    <div class="content px-3">
+    <div class="content px-3" >
 
         @include('flash::message')
 
         <div class="clearfix"></div>
 
-        <div class="card">
+        <div class="card" >
             <div class="card-body p-0">
                 @include('cita_detalles.table')
 

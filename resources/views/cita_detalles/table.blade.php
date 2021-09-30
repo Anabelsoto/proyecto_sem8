@@ -3,7 +3,7 @@
         <thead>
             <tr>
                 <th>Idcita</th>
-                <th colspan="3">Action</th>
+                <th colspan="3">Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -19,7 +19,7 @@
                         <a href="{{ route('citaDetalles.edit', [$citaDetalle->idcita_detalle]) }}" class='btn btn-default btn-xs'>
                             <i class="far fa-edit"></i>
                         </a>
-                        {!! Form::button('<i class="far fa-trash-alt"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                        {!! Form::button('<i class="far fa-trash-alt"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('¿estás seguro de que quieres Eliminar?')"]) !!}
                     </div>
                     {!! Form::close() !!}
                 </td>
